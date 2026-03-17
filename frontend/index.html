@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medical Note Classifier</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Medical Note Classifier</h1>
+            <p class="subtitle">AI-powered medical diagnosis assistant for academic use</p>
+        </header>
+
+        <main class="card">
+            <div class="input-group">
+                <label for="medical-note">Patient Medical Note</label>
+                <textarea id="medical-note" placeholder="Enter patient symptoms or medical observations here... e.g., Patient reports increased thirst and frequent urination."></textarea>
+            </div>
+
+            <button id="predict-btn">
+                <span class="btn-text">Predict Disease</span>
+                <div class="loading-spinner" id="spinner"></div>
+            </button>
+
+            <div id="error-box" class="error-message"></div>
+
+            <div id="result-container">
+                <div class="result-card">
+                    <p class="result-label">Predicted Condition</p>
+                    <p id="prediction-result" class="result-value">---</p>
+                </div>
+            </div>
+        </main>
+
+        <footer style="margin-top: 2rem; text-align: center; color: #64748B; font-size: 0.875rem;">
+            <p>&copy; 2024 Academic Project - NLP Medical Classifier</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
