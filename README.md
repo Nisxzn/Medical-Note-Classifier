@@ -81,4 +81,4 @@ Open `frontend/index.html` in any web browser.
 > **Diabetes**
 
 ---
-*Created for NLP assignment purposes.*
+*Created for academic assignment purposes.*
