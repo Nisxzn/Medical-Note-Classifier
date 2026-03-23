@@ -81,4 +81,4 @@ Open `frontend/index.html` in any web browser.
 > **Diabetes**
 
 ---
-*Created for academic assignment purposes.*
+*Created by nisxzn for academic assignment purposes.*
